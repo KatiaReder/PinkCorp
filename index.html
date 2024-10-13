@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="PinkCorp - Simplificando benefícios para empresas e funcionários."
+		/>
+		<title>P!nkCorp - Cartão de Benefícios</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body>
+		<header>
+			<div class="container">
+				<h1 class="logo">
+					<a href="index.html" style="text-decoration: none; color: #fff"
+						>P!nkCorp</a
+					>
+				</h1>
+				<nav>
+					<ul>
+						<li><a href="#about">Sobre</a></li>
+						<li><a href="#services">Serviços</a></li>
+						<li><a href="#benefits">Benefícios</a></li>
+						<li><a href="#contact">Contato</a></li>
+						<li><a href="privacy.html">Política de Privacidade</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<section class="hero">
+			<div class="container2">
+				<image src="./src/Wallet-bro.png" width="500" height="600"></image>
+				<div class="introduction">
+					<h2>Benefícios personalizados para sua empresa</h2>
+					<p>
+						Gerencie e otimize benefícios corporativos de forma simples e
+						eficiente com o P!nkCorp.
+					</p>
+					<a href="#contact" class="btn">Saiba mais</a>
+				</div>
+			</div>
+		</section>
+
+		<section id="about" class="about">
+			<div class="containerDescription">
+				<h2>Sobre a P!nkCorp</h2>
+
+				<p>
+					A P!nkCorp oferece cartões de benefícios personalizados que atendem às
+					necessidades de empresas e seus funcionários, proporcionando uma
+					gestão simplificada e flexível. Nossos cartões podem ser utilizados em
+					nichos específicos, desde alimentação até lazer, otimizando a
+					experiência e produtividade dos colaboradores.
+				</p>
+			</div>
+		</section>
+
+		<section id="services" class="services">
+			<div class="containerDescription">
+				<h2>Nossos Serviços</h2>
+				<div class="service-list">
+					<div class="service">
+						<h3>Gestão de Benefícios</h3>
+						<p>
+							Administração de cartões com soluções sob medida para cada tipo de
+							empresa.
+						</p>
+					</div>
+					<div class="service">
+						<h3>Relatórios Detalhados</h3>
+						<p>
+							Relatórios completos para monitoramento de uso e controle
+							financeiro.
+						</p>
+					</div>
+					<div class="service">
+						<h3>Suporte Dedicado</h3>
+						<p>
+							Equipe pronta para auxiliar sua empresa e seus colaboradores em
+							tempo real.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="benefits" class="benefits">
+			<div class="containerBenefits">
+				<image src="./src/Credit card-bro.png" width="500" height="600"></image>
+
+				<div class="introductionBenefits">
+					<h2>Benefícios para sua Empresa</h2>
+					<ul>
+						<li>Maior controle sobre os benefícios oferecidos.</li>
+						<li>Flexibilidade de uso em diversas áreas.</li>
+						<li>Facilidade na integração com sistemas de gestão.</li>
+						<li>Mais satisfação para os colaboradores.</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact" class="contact">
+			<div class="containerDescription">
+				<h2>Entre em Contato</h2>
+				<p>
+					Quer saber mais sobre como a P!nkCorp pode ajudar sua empresa a
+					oferecer os melhores benefícios? Preencha o formulário abaixo e
+					entraremos em contato!
+				</p>
+				<form action="submit_form.php" method="post">
+					<label for="email">E-mail:</label>
+					<input type="email" id="email" name="email" required />
+
+					<label for="message">Descrição:</label>
+					<textarea id="message" name="message" rows="4" required></textarea>
+
+					<button type="submit" class="btn">Enviar</button>
+				</form>
+			</div>
+		</section>
+
+		<footer>
+			<div class="containerFooter">
+				<p>&copy; 2024 P!nkCorp - Todos os direitos reservados.</p>
+			</div>
+		</footer>
+	</body>
+</html>
