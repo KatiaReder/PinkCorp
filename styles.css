@@ -109,7 +109,7 @@ header nav ul li a:hover {
 .services,
 .benefits,
 .contact,
-.privacy-policy {
+.privacy-policy, security-policy {
 	padding: 60px 0;
 }
 .about p {
@@ -324,4 +324,42 @@ section#benefits.benefits {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 20px;
+}
+
+.security-policy h2 {
+	color: #ff0080;
+
+	display: flex;
+	justify-content: center;
+}
+.security-policy h5 {
+	color: #191919;
+	margin-bottom: 10px;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.security-policy h3 {
+	color: #ff0080;
+}
+
+.security-policy a {
+	color: #da1975;
+	margin-bottom: 10px;
+	text-decoration: underline;
+}
+
+.security-policy a:hover {
+	color: #ff66a3;
+}
+.security-policy ul {
+	margin: 0 auto;
+	margin-bottom: 20px;
+	list-style: none;
+	margin-left:2rem ;
+}
+.security-policy p {
+	margin-bottom: 20px;
+	color: #555;
 }
